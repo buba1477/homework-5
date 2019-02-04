@@ -1,23 +1,4 @@
-// var square = getElementsByClassName('dragElement');
-// square.onmousedown = function(el) {
-//    square.style.position = 'absolute';
-//    moveAt(el);
-//     document.body.appendChild(square);
-//     square.style.zIndex = 1000;
-//
-//     function moveAt(el) {
-//     square.style.left = e.pageX - square.offsetWidth / 2 + 'px';
-//     square.style.top = e.pageY - square.offsetHeight / 2 + 'px';
-//   }
-//   document.onmousemove = function(el) {
-//    moveAt(el);
-//  }
-//
-//  square.onmouseup = function() {
-//     document.onmousemove = null;
-//     square.onmouseup = null;
-//   }
-// }
+
 var ball = document.getElementById('ball');
 
 ball.onmousedown = function(e) {
