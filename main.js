@@ -33,10 +33,11 @@ ball.ondragstart = function() {
   return false;
 };
 
-function getCoords(elem) {   // кроме IE8-
+function getCoords(elem) {   // кроме IE8- --- эта строчка явно выдает копипасту
   var box = elem.getBoundingClientRect();
   return {
     top: box.top + pageYOffset,
     left: box.left + pageXOffset
   };
 }
+
